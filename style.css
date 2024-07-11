@@ -1,0 +1,18 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+main{
+    height:100vh;
+    width:100vw;
+}
+.landsdowne{
+    height: 100%;
+    width:100%;
+    background-image: url(Lansdowne\ banner.jpg);
+    background-size:cover;
+    text-align:center;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
