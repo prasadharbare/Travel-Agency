@@ -1,18 +1,143 @@
-*{
-    padding:0px;
-    margin:0px;
+@font-face {
+    font-family: cool;
+    src: url(./fonts/coolvetica_rg.otf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-main{
-    height:100vh;
-    width:100vw;
-}
-.landsdowne{
-    height: 100%;
-    width:100%;
-    background-image: url(Lansdowne\ banner.jpg);
-    background-size:cover;
-    text-align:center;
+    font-family: cool;
+    overflow-x: hidden;
+  }
+  
+  /* body {
+    height: 100vh;
+    width: 100vw;
+  } */
+  
+  .hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(beach.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 50px;
-}
+    display: flex;
+    align-items:normal;
+    justify-content:center;
+    flex-direction: column;
+    color: #000000;
+    font-family: cool;
+    font-size: 200%;
+    overflow-x:hidden;
+  }
+  
+  main {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .attractions {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #faebd7;
+  }
+  
+  .attractions img {
+    height: 25vh;
+    width: 25.5vw;
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 5px;
+  }
+  
+  .attractions {
+    font-weight: bold;
+  }
+  
+  .a h2 {
+    position: relative;
+    top: 3%;
+    left: 40%;
+    /* right:10%; */
+    font-size: 25px;
+  }
+  
+  .a pre {
+    position: relative;
+    top: 5%;
+    left: 37%;
+  }
+  
+  .b h2 {
+    position: relative;
+    top: 3%;
+    left: 42%;
+    font-size: 25px;
+  }
+  
+  .b pre {
+    position: relative;
+    left: 35%;
+    top: 5%;
+  }
+  
+  .c h2 {
+    position: relative;
+    top: 3%;
+    left: 42%;
+    font-size: 25px;
+  }
+  
+  .c pre {
+    position: relative;
+    left: 37%;
+    top: 5%;
+  }
+  
+  .review {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  
+  .review_box {
+    width: 40%;
+    position: relative;
+    background-color: #f7a999;
+    border-bottom: 5px solid #f27156;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .review .review_box img {
+    width: 20%;
+    margin-left: 39%;
+    border-radius: 50%;
+  }
+  
+  .review_box h2 {
+    font-size: 100%;
+    margin-left: 37%;
+  }
+  
+  .review_box p {
+    text-align: center;
+    margin-top: 1%;
+  }
+  
+  footer {
+    width: 100vw;
+    background-color: #eedf08c5;
+    text-align:left;
+    padding: 3px;
+  }
+.footer h3{
+  align-items:flex-end;
+  }
+  
