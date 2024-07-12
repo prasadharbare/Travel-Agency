@@ -30,6 +30,7 @@
     font-family: cool;
     font-size: 200%;
     overflow-x:hidden;
+    overflow-y:hidden;
   }
   
   main {
